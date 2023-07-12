@@ -57,7 +57,7 @@ export default function AddNewTodo() {
 					onChange={handleChange}
 				/>
 				<Button isPrimary action={createNewTodo}>
-                    Add new Todo 
+                    <span className={"max-sm:hidden"}>Add new Todo</span>
                     <IoAddOutline size={25}/>
                 </Button>
 			</div>
